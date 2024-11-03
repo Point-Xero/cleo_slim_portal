@@ -7,7 +7,7 @@ function App() {
   const [greeting, setGreeting] = useState('');
 
     useEffect(() => {
-        axios.get('http://localhost:5002/api/hello')
+        axios.get('http://localhost:5000/api/hello')
             .then(response => {
                 setGreeting(response.data.msg);
                 console.log('Message fetched successfully:', response.data.msg);
