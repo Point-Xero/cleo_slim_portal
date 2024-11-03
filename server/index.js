@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 
 app.get('/api/hello', (req, res) => {
-    res.json({msg: 'hello'});
+    res.json({msg: 'Hello This is an update to test the Boot function'});
 });
 
 app.listen(PORT, () => {
