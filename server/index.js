@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 
 app.get('/api/hello', (req, res) => {
-    res.json({msg: 'Well Thats That...'});
+    res.json({msg: 'Does not appeat that remote updates will work'});
 });
 
 app.listen(PORT, () => {
